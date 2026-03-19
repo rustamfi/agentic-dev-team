@@ -1,0 +1,11 @@
+{
+  "name": "dev-team",
+  "version": "1.0.0",
+  "description": "A virtual software development team with dynamically orchestrated agents: PM, UX/UI, Architect, Backend, Frontend, QA, and Security. Run the full pipeline or invoke individual roles.",
+  "author": {
+    "name": "Rustam Pirmagomedov",
+    "url": "https://github.com/efimind"
+  },
+  "homepage": "https://github.com/efimind/dev-team-agents",
+  "tags": ["agents", "workflow", "development", "team", "orchestrator"]
+}
