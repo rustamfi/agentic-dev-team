@@ -107,12 +107,7 @@ dev-team/
 
 ### Adjusting Agent Models
 
-Each agent's `model` field in the YAML frontmatter can be changed. Use a more capable model for complex agents (orchestrator, architect) and a faster model for focused tasks (qa, security):
-
-```yaml
-model: claude-sonnet-4-6    # Fast, good for focused tasks
-model: claude-opus-4-6     # Deeper reasoning for complex decisions
-```
+Model assignments are centralized in the orchestrator agent (`agents/orchestrator.md`) under the **Agent Model Assignment** section. The orchestrator passes the `model` parameter when spawning each agent via the Agent tool. To change which model an agent uses, update the table there.
 
 ### Adding Domain-Specific Context
 

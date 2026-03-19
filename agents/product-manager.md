@@ -3,7 +3,6 @@ name: product-manager
 description: >
   Defines requirements, writes user stories, sets acceptance criteria, and prioritizes work.
   Invoked when requests are ambiguous or need scoping before implementation.
-model: claude-sonnet-4-6
 color: yellow
 ---
 

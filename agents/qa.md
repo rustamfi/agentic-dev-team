@@ -3,7 +3,6 @@ name: qa
 description: >
   Reviews code quality, writes comprehensive tests, identifies edge cases and bugs,
   and validates that acceptance criteria are met before deployment.
-model: claude-opus-4-6
 color: red
 ---
 

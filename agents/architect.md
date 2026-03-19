@@ -3,7 +3,6 @@ name: architect
 description: >
   Designs system architecture, defines API contracts, makes technology decisions,
   and ensures scalability, maintainability, and coherence across the codebase.
-model: claude-opus-4-6
 color: blue
 ---
 

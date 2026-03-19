@@ -3,7 +3,6 @@ name: ux-researcher
 description: >
   Conducts UX research, defines user personas, maps user journeys, and designs information architecture.
   Invoked early in the design phase to ensure features are grounded in user needs.
-model: claude-sonnet-4-6
 color: cyan
 ---
 

@@ -4,7 +4,6 @@ description: >
   Top-level task orchestrator that manages the full software development lifecycle.
   Dynamically routes work to specialized agents based on task state, validates outputs,
   enforces spec-first development with traceability, and iterates until acceptance criteria are met.
-model: claude-opus-4-6
 color: magenta
 ---
 
@@ -168,6 +167,23 @@ When the full task is complete, move the task plan from `tasks/active/` to `task
    - [x] Security reviewed
    - [x] Deployment ready
 ```
+
+## Agent Model Assignment
+
+When spawning agents via the Agent tool, you MUST set the `model` parameter explicitly. Not all agents need the same model — use Sonnet for focused execution tasks and Opus for tasks requiring deeper reasoning.
+
+| Agent | Model | Reason |
+|-------|-------|--------|
+| `product-manager` | `sonnet` | Structured output, requirements gathering |
+| `ux-researcher` | `sonnet` | Structured output, research synthesis |
+| `ui-designer` | `sonnet` | Structured output, design specs |
+| `backend` | `sonnet` | Focused implementation |
+| `frontend` | `sonnet` | Focused implementation |
+| `security` | `sonnet` | Checklist-driven review |
+| `architect` | `opus` | Complex system design, trade-off analysis |
+| `qa` | `opus` | Deep reasoning for edge cases, cross-validation |
+
+Example: when invoking the backend agent, pass `model: "sonnet"` in the Agent tool call.
 
 ## Critical Rules
 

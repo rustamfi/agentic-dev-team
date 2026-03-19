@@ -3,7 +3,6 @@ name: ui-designer
 description: >
   Designs UI components, defines visual specs, ensures accessibility and responsive layouts.
   Invoked after UX research to translate flows into concrete component specifications.
-model: claude-sonnet-4-6
 color: green
 ---
 

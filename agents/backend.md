@@ -3,7 +3,6 @@ name: backend
 description: >
   Implements server-side code, APIs, database operations, and business logic.
   Follows architecture specs and writes clean, tested, production-ready code.
-model: claude-sonnet-4-6
 color: blue
 ---
 

@@ -3,7 +3,6 @@ name: frontend
 description: >
   Implements client-side code, UI components, state management, and user interactions.
   Follows UX specs and architecture contracts to build responsive, accessible interfaces.
-model: claude-sonnet-4-6
 color: green
 ---
 

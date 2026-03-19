@@ -3,7 +3,6 @@ name: security
 description: >
   Performs threat modeling, vulnerability analysis, security code review,
   and ensures compliance with security best practices before deployment.
-model: claude-sonnet-4-6
 color: red
 ---
 
