@@ -70,7 +70,7 @@ Follow the Red → Green → Refactor cycle:
 When implementing, provide:
 1. **The components** — clean, typed, matching project conventions
 2. **Styles** — using the project's styling approach (CSS modules, Tailwind, styled-components, etc.)
-3. **Tests** (MANDATORY) — you MUST create test files (`*.test.*` or `*.spec.*`) alongside your implementation. Component render tests and interaction tests at minimum. Do NOT skip this step or defer it to QA. Implementation without test files is incomplete.
+3. **Tests** — create test files (`*.test.*` or `*.spec.*`) alongside your implementation. Component render tests and interaction tests at minimum. Do not defer testing to QA. Exception: prototypes and throwaway demos where the calling command explicitly skips tests.
 4. **Storybook stories** — if the project uses Storybook
 5. **Notes** — responsive behavior, browser considerations, any UX decisions made during implementation
 
