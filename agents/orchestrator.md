@@ -86,6 +86,7 @@ Before invoking any agent, assess what the task actually needs:
 Before routing to any implementation agent (`backend`, `frontend`):
 - Verify that specs exist — at minimum, acceptance criteria must be defined (in `specs/prd.md` or stated by the user)
 - If specs are missing, route to `product-manager` and/or `architect` first
+- **For tasks involving UI**: `specs/ux-research.md` AND `specs/ui-design.md` must exist before routing to `frontend`. If either is missing, route to `ux-researcher` → `ui-designer` first. Do not skip this — even if the user provided mockups or the task seems visually simple.
 - Implementation without specs leads to rework — prevent it
 
 ### 3. Prototype Validation
