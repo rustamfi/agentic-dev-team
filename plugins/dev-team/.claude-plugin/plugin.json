@@ -6,6 +6,7 @@
     "name": "Rustam Pirmagomedov",
     "url": "https://github.com/rustamfi"
   },
+  "repository": "https://github.com/rustamfi/agentic-teams",
   "homepage": "https://github.com/rustamfi/agentic-teams",
   "tags": ["agents", "workflow", "development", "team", "team-manager"]
 }

@@ -8,7 +8,8 @@
     {
       "name": "dev-team",
       "source": "./plugins/dev-team",
-      "description": "A virtual software development team with dynamically orchestrated agents: PM, UX/UI, Architect, Backend, Frontend, QA, and Security."
+      "description": "A virtual software development team with dynamically orchestrated agents: PM, UX/UI, Architect, Backend, Frontend, QA, and Security.",
+      "repository": "https://github.com/rustamfi/agentic-teams"
     }
   ]
 }
