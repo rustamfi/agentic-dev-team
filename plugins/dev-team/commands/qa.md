@@ -1,5 +1,4 @@
 ---
-name: qa
 description: Run the QA Engineer agent to review code, write tests, and validate acceptance criteria.
 argument-hint: "<task description>"
 ---

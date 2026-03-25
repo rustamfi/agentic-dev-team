@@ -1,5 +1,4 @@
 ---
-name: prototype
 description: Build a clickable interactive prototype to validate design direction before full implementation.
 argument-hint: "<feature to prototype>"
 ---

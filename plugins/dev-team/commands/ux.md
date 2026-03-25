@@ -1,5 +1,4 @@
 ---
-name: ux
 description: Run the UX Researcher agent to define user personas, journeys, and information architecture.
 argument-hint: "<task description>"
 ---

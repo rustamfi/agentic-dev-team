@@ -1,5 +1,4 @@
 ---
-name: pm
 description: Run the Product Manager agent to define requirements and acceptance criteria.
 argument-hint: "<task description>"
 ---

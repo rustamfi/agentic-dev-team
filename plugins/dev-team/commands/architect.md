@@ -1,5 +1,4 @@
 ---
-name: architect
 description: Run the Architect agent for system design, API contracts, and tech decisions.
 argument-hint: "<task description>"
 ---

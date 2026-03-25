@@ -1,5 +1,4 @@
 ---
-name: frontend
 description: Run the Frontend Developer agent to implement client-side code.
 argument-hint: "<task description>"
 ---

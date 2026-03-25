@@ -1,5 +1,4 @@
 ---
-name: design
 description: Run the UI Designer agent to create component specs, layouts, and visual design tokens.
 argument-hint: "<task description>"
 ---

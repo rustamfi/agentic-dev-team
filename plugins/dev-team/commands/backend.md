@@ -1,5 +1,4 @@
 ---
-name: backend
 description: Run the Backend Developer agent to implement server-side code.
 argument-hint: "<task description>"
 ---

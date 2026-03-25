@@ -1,5 +1,4 @@
 ---
-name: build
 description: >
   Run the full development team pipeline on a task. Orchestrates PM, Designer, Architect,
   Backend, Frontend, QA, and Security agents in phases, with user approval gates.

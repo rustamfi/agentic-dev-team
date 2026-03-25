@@ -1,5 +1,4 @@
 ---
-name: security
 description: Run the Security Engineer agent for threat modeling and vulnerability review.
 argument-hint: "<task description>"
 ---

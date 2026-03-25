@@ -1,5 +1,4 @@
 ---
-name: review
 description: Run QA and Security agents together to review existing code before deployment.
 argument-hint: "<task or code to review>"
 ---
